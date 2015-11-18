@@ -32,7 +32,7 @@ env.register(
     assets.Bundle(
         'main.scss',
         filters='scss',
-        output='static/css_all.css'
+        output='css_all.css'
     )
 )
 
