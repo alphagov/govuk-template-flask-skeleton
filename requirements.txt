@@ -1,5 +1,2 @@
 Flask==0.10.1
 Flask-Assets==0.11
-Flask-Scss==0.5
-
-git+https://github.com/imiric/flask-sass.git#egg=flask-sass
