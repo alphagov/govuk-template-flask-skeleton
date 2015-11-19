@@ -11,9 +11,14 @@ app = Flask(__name__)
 #Scss(app, static_dir='static', asset_dir='assets/stylesheets')
 #sass(app, input_dir='assets/stylesheets', output_dir='static')
 
+# debug mode - switch to False for production
 app.config['ASSETS_DEBUG'] = True
 
 env = assets.Environment(app)
+
+# debug mode - switch to True for production
+env.config['cache'] = False
+env.config['manifest'] = False
 
 env.config['sass_bin'] = '/usr/local/bin/sass'
 
