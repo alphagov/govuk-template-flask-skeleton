@@ -55,3 +55,10 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# cache and static rebuild files
+assets/stylesheets/govuk_template/.sass-cache/
+.sass-cache/
+cache/
+static/stylesheets/govuk-template*
+static/css*
