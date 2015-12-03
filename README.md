@@ -1,8 +1,10 @@
+# govuk-template-flask-skeleton
+
 This Python app creates a frontend skeleton based on Flask, Flask-Assets and the govuk_frontend_toolkit (and GOV.UK template). This renders pages with the GOV.UK style. Webpages can be coded using styles from GOV.UK Elements.
 
 govuk_frontend_toolkit is pulled in as a git submodule.
 
-INSTALLATION
+### Installation
 
 In a virtual environment, install the Python requirements:
 pip install -r requirements.txt
@@ -10,7 +12,7 @@ pip install -r requirements.txt
 You will need sass installed:
 bundle install
 
-RUNNING THE APP
+### Running the app
 
 To run the app:
 python app.py
