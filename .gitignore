@@ -55,3 +55,9 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# SCSS files
+static/stylesheets/*.css
+static/css_all.css
+*.scssc
+
