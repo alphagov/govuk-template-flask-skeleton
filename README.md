@@ -3,6 +3,9 @@
 This Python app creates a frontend skeleton based on Flask, Flask-Assets and the govuk_frontend_toolkit (and GOV.UK template). This renders pages with the GOV.UK style. Webpages can be coded using styles from GOV.UK Elements.
 
 govuk_frontend_toolkit is pulled in as a git submodule.
+To get the contents of the submodule run the following git commands.
+git submodule init
+git submodule update
 
 ### Installation
 
