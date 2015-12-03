@@ -48,7 +48,8 @@ env.register(
     assets.Bundle(
         'govuk_template/govuk-template.scss',
         filters='scss',
-        output='stylesheets/govuk-template.css'
+        output='stylesheets/govuk-template.css',
+        depends='*.scss'
     )
 )
 
@@ -57,7 +58,8 @@ env.register(
     assets.Bundle(
         'govuk_template/govuk-template-ie6.scss',
         filters='scss',
-        output='stylesheets/govuk-template-ie6.css'
+        output='stylesheets/govuk-template-ie6.css',
+        depends='*.scss'
     )
 )
 
@@ -66,7 +68,8 @@ env.register(
     assets.Bundle(
         'govuk_template/govuk-template-ie7.scss',
         filters='scss',
-        output='stylesheets/govuk-template-ie7.css'
+        output='stylesheets/govuk-template-ie7.css',
+        depends='*.scss'
     )
 )
 
@@ -75,7 +78,8 @@ env.register(
     assets.Bundle(
         'govuk_template/govuk-template-ie8.scss',
         filters='scss',
-        output='stylesheets/govuk-template-ie8.css'
+        output='stylesheets/govuk-template-ie8.css',
+        depends='*.scss'
     )
 )
 
@@ -84,7 +88,8 @@ env.register(
     assets.Bundle(
         'govuk_template/govuk-template-print.scss',
         filters='scss',
-        output='stylesheets/govuk-template-print.css'
+        output='stylesheets/govuk-template-print.css',
+        depends='*.scss'
     )
 )
 
